@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015-6-10 20:38:48。
+     1>项目“C:\workspace\GrabCut\GrabCut\GrabCut.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\GrabCut.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\GrabCut.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GCApplication.cpp GrabCut.cpp graph.cpp main.cpp maxflow.cpp
+         GCApplication.cpp
+         GrabCut.cpp
+         graph.cpp
+         main.cpp
+     1>c:\workspace\opencv-build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         maxflow.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\GrabCut\Release\GrabCut.exe" /NOLOGO opencv_core2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\GrabCut.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\workspace\GrabCut\Release\GrabCut.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workspace\GrabCut\Release\GrabCut.lib" /MACHINE:X86 Release\GCApplication.obj
+         Release\GrabCut.obj
+         Release\graph.obj
+         Release\main.obj
+         Release\maxflow.obj
+         正在生成代码
+         已完成代码的生成
+         GrabCut.vcxproj -> C:\workspace\GrabCut\Release\GrabCut.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\workspace\GrabCut\Release\GrabCut.exe;#1" /manifest Release\GrabCut.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\GrabCut.unsuccessfulbuild”。
+         正在对“Release\GrabCut.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\workspace\GrabCut\GrabCut\GrabCut.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.45
